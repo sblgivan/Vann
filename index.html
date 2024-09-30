@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trading Bot Interface</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to the Trading Bot</h1>
+        <div class="switch-container">
+            <label class="switch">
+                <input type="checkbox" id="botSwitch">
+                <span class="slider"></span>
+            </label>
+            <p id="status">Bot is OFF</p>
+        </div>
+        <div class="log-container">
+            <h2>Bot Activity Logs</h2>
+            <pre id="log">The bot is idle.</pre>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
